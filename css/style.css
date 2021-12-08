@@ -8,6 +8,11 @@
 /* letter-spacing: 0.03em everywhere except hero, nav and header address*/
 /* --------- CSS for Studio --------- */
 /* HERO */
+body { font-size: 14px; 
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em; 
+  color: var(--primary-text-color); 
+  background-color: var(--primary-white-color); }
 .hero > .hero-title {
     background-color: #2f303a;
     color: var(--hero-text-color);
