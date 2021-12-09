@@ -6,13 +6,16 @@
 /* hero/footer background - #2F303A */
 /* team background color - #F5F4FA */
 /* letter-spacing: 0.03em everywhere except hero, nav and header address*/
+/* element color: var(--primary-text-color); */
+/* element background-color: var(--primary-white-color); */
+/* color: var(--hero-text-color);*/
+/* background-color: var(--accent-color);*/
 /* --------- CSS for Studio --------- */
 /* HERO */
 body { font-size: 14px; 
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em; 
-  color: var(--primary-text-color); 
-  background-color: var(--primary-white-color); }
+  }
 .hero > .hero-title {
     background-color: #2f303a;
     color: var(--hero-text-color);
@@ -79,7 +82,7 @@ body { font-size: 14px;
     background-color: var(--accent-color);
     color: var(--hero-text-color);
   }
-  .works .work {
+  .portfolio .portfoli-title-text {
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -89,4 +92,12 @@ body { font-size: 14px;
   .works .desc {
     font-size: 16px;
     line-height: 1.87;
+  }
+  .no marker{
+
+  }
+  .link{  font-family: Roboto;
+  font-style: normal;
+   font-weight: 500;
+  font-size: 14px;
   }
