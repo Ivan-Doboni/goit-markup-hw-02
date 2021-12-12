@@ -1,6 +1,7 @@
 /* primary text color - #757575 */
 /* secondary text color - #212121 */
 /* hero text color - #ffffff */
+/* filter-color - #f5f4fa */
 /* physical address text color - rgba(255, 255, 255, 0.6) */
 /* accent color - #2196F3 */
 /* hero/footer background - #2F303A */
@@ -20,6 +21,7 @@ body { font-size: 14px;
   }
 .hero > .hero-title {
     background-color: #2f303a;
+    color: var(--hero-text-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.37;
@@ -28,6 +30,8 @@ body { font-size: 14px;
     text-transform: uppercase;
   }
   .button {
+    background-color: var(--accent-color);
+    color: var(--hero-text-color);
     cursor: pointer;
     font-family: inherit; 
 
@@ -39,11 +43,13 @@ body { font-size: 14px;
   }
   /* OUR FEATURES */
   .main-section {
+    color: var(--primary-text-color);
   }
   .section-title {
- 
+    color: var(--secondary-text-color);
   }
   .features .title {
+    color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -62,9 +68,12 @@ body { font-size: 14px;
   }
   /* OUR TEAM */
   .main-section.team {
+    background-color: var(--filter-color);
   }
   /* --------- CSS for Portfolio --------- */
   .filter > .buttons {
+    background-color: var(--filter-color);
+    color: var(--secondary-text-color);
     cursor: pointer;
     font-family: inherit;
   }
@@ -73,8 +82,11 @@ body { font-size: 14px;
   
   .filter > .buttons:focus,
   .filter > .accent {
+    background-color: var(--accent-color);
+    color: var(--hero-text-color);
   }
   .portfolio .portfoli-title-text {
+    color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -87,7 +99,7 @@ body { font-size: 14px;
   .no marker{
 
   }
-  .link{  font-family: Roboto;
+  .link{  font-family: 'Roboto', sans-serif;
   font-style: normal;
    font-weight: 500;
   font-size: 14px;
