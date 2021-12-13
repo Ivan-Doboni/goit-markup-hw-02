@@ -10,10 +10,17 @@
 /* color: var(--primary-text-color); */
 /* color: var(--hero-text-color); */
 /* color: var(--secondary-text-color); */
-/* background-color: var(--primary-white-color); */
+/* background-color: var(--primary-text-color); */
 /* background-color: var(--filter-color); */
 /* background-color: var(--accent-color); */
 /* --------- CSS for Studio ---------  */
+:root {
+  --primary-text-color: #757575;
+  --hero-text-color: #ffffff;
+  --secondary-text-color: #212121;
+  --accent-color: #2196F3;
+  --filter-color: #f5f4fa;  
+}
 /* HERO */
 body { font-size: 14px; 
   font-family: 'Roboto', sans-serif;
