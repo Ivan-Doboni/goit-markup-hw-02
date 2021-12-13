@@ -20,6 +20,8 @@
   --secondary-text-color: #212121;
   --accent-color: #2196F3;
   --filter-color: #f5f4fa;  
+  --physical-address-text-color: rgba(255, 255, 255, 0,6);
+
 }
 /* HERO */
 body { font-size: 14px; 
@@ -36,6 +38,7 @@ body { font-size: 14px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
   }
+  
   .button {
     background-color: var(--accent-color);
     color: var(--hero-text-color);
@@ -73,13 +76,26 @@ body { font-size: 14px;
     line-height: 1.16;
     text-align: center;
   }
+  .footer-address-no-marker {
+    color: var(--hero-text-color);
+  }
+  .contacts{
+    color: var(--physical-address-text-color);
+  }
   /* OUR TEAM */
   .main-section.team {
     background-color: var(--filter-color);
   }
   /* --------- CSS for Portfolio --------- */
-  .filter > .buttons {
+  .filtes
+ {
     background-color: var(--filter-color);
+    color: var(--secondary-text-color);
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .button > .buttons-accent{
+    background-color: var(--accent-color);
     color: var(--secondary-text-color);
     cursor: pointer;
     font-family: inherit;
@@ -111,3 +127,4 @@ body { font-size: 14px;
    font-weight: 500;
   font-size: 14px;
   }
+  
