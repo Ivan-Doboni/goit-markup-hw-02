@@ -13,22 +13,83 @@
 /* background-color: var(--primary-text-color); */
 /* background-color: var(--filter-color); */
 /* background-color: var(--accent-color); */
+
+
 /* --------- CSS for Studio ---------  */
+
+
 :root {
   --primary-text-color: #757575;
   --hero-text-color: #ffffff;
   --secondary-text-color: #212121;
   --accent-color: #2196F3;
   --filter-color: #f5f4fa;  
-  --physical-address-text-color: rgba(255, 255, 255, 0,6);
-
+  --physical-address-text-color: rgba(255, 255, 255, 0.6);
+  --mail-text-color: rgba(33, 150, 243, 1);
+  --studio-text-color: #000000;
 }
-/* HERO */
-body { font-size: 14px; 
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.03em; 
+
+/* HERO  */
+
+   body {
+    font-size: 14px; 
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em; 
   }
-.hero > .hero-title {
+
+  .page {
+    background-color: #E5E5E5;;
+  }
+  
+  .item {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--accent-color);
+  }
+ 
+  .item.studio {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--studio-text-color);
+  }
+
+  .link.current{ 
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--accent-color);
+    }
+
+  .link{ 
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--secondary-text-color);
+      }
+
+  .contact.mail{
+    color: var(--mail-text-color);
+  }
+
+  .contact.tel{
+    font-family: 'Roboto',sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--primary-text-color);
+  }
+
+  .hero > .hero.title {
     background-color: #2f303a;
     color: var(--hero-text-color);
     font-weight: 900;
@@ -40,24 +101,27 @@ body { font-size: 14px;
   }
   
   .button {
-    background-color: var(--accent-color);
-    color: var(--hero-text-color);
-    cursor: pointer;
-    font-family: inherit; 
-
-    font-weight: 700;
-    font-size: 16px;
-  
-    line-height: 1.9;
-    letter-spacing: 0.06em;
+   background-color: var(--accent-color);
+   color: var(--hero-text-color);
+   font-family: 'Roboto',sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 30px;
+   letter-spacing: 0.06em;
   }
+
+  
   /* OUR FEATURES */
+  
   .main-section {
     color: var(--primary-text-color);
   }
+  
   .section-title {
     color: var(--secondary-text-color);
   }
+ 
   .features .title {
     color: var(--secondary-text-color);
     font-weight: 700;
@@ -65,28 +129,60 @@ body { font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
   }
+  
   .features .text {
     font-size: 14px;
     line-height: 1.71;
   }
-  /* WHAT WE DO */
+  
+  /* Footer */
+  
+.item.studio.footer {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--hero-text-color)
+}
+
   .section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
   }
+  
   .footer-address-no-marker {
     color: var(--hero-text-color);
   }
-  .contacts{
-    color: var(--physical-address-text-color);
+  
+  .contacts.mail {
+   font-family: 'Roboto'; 
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px; 
+   color: var(--primary-text-color);   
   }
+ 
+  .contacts.address {
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   color: var(--hero-text-color);
+  }
+  
   /* OUR TEAM */
+ 
   .main-section.team {
     background-color: var(--filter-color);
   }
+ 
   /* --------- CSS for Portfolio --------- */
+  
   .filtes
  {
     background-color: var(--filter-color);
@@ -94,6 +190,7 @@ body { font-size: 14px;
     cursor: pointer;
     font-family: inherit;
   }
+  
   .button > .buttons-accent{
     background-color: var(--accent-color);
     color: var(--secondary-text-color);
@@ -104,10 +201,12 @@ body { font-size: 14px;
   .filter > .buttons:hover,
   
   .filter > .buttons:focus,
+  
   .filter > .accent {
     background-color: var(--accent-color);
     color: var(--hero-text-color);
   }
+  
   .portfolio .portfoli-title-text {
     color: var(--secondary-text-color);
     font-weight: 700;
@@ -115,16 +214,11 @@ body { font-size: 14px;
     line-height: 2;
     letter-spacing: 0.06em;
   }
+  
   .works .desc {
     font-size: 16px;
     line-height: 1.87;
   }
-  .no marker{
+  
 
-  }
-  .link{  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-   font-weight: 500;
-  font-size: 14px;
-  }
   
