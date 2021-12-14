@@ -202,7 +202,7 @@
   
   .filter > .buttons:focus,
   
-  .filter > .accent {
+  .buttons.accent {
     background-color: var(--accent-color);
     color: var(--hero-text-color);
   }
